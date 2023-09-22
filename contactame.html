@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sebastian Farfan</title>
+    <link rel="shortcut icon" href="./Img/s.png" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./Style/style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container-fluid">
+          <h1 class="title-name ">SEBASTIAN FARFAN - A través del lente</h1>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent" aria-controls="navbarContent">
+            <i class="bi bi-list "></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarContent">
+            <div class="row">
+              <div class="col-lg-6 col-sm-12"> <ul class="navbar-nav ">
+                <li ><h4><a class="nav-item" href="./index.html">inicio</a></h4></li>
+                <li ><h4><a class="nav-item" href="./AboutUs.html">¿Quien soy?</a></h4></li>
+                <li ><h4><a class="nav-item" href="./proyectos.html">Proyectos</a></h4></li>
+                <li ><h4><a class="nav-item" href="#">Contactame</a> </h4></li>
+              </ul></div>
+              <div class="col-lg-6 col-sm-12">
+                <span class="text-body-secondary text-description">"A través del lente" es un cautivador portafolio que marca los primeros pasos de un fotógrafo novato en el mundo de la captura visual. A medida que explora su creatividad y afinidad por la fotografía, este proyecto revela una mirada fresca y curiosa hacia el mundo que lo rodea. 
+                </span></div>
+            </div>
+           
+          </div>
+          
+        </div>
+        <div>
+          
+
+    </nav>
+    <div class="container-fluid">
+        <br>
+        <div class="row">
+            <div class="col">
+                <h4>En el siguiente fromulario puedes dejar tus datos por si te interesa que te contactemos</h4>
+            </div>
+        </div>
+        <hr>
+        <div class="row">
+           <div class="col-sm-12 col-lg-4">
+                <form class="form needs-validation" novalidate>
+                    <label for="name" class="form-label">Nombres</label>
+                    <input type="text" class="form-control" id="name" required>
+                    <label for="number" class="form-label">Telefono Celular</label>
+                    <input required type="number" min="1111111111" max="9999999999" class="form-control" id="tel" required>
+                    <label for="email" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="email" required>
+                    <label for="proyecto" class="form-label">Descripcion de tu idea o proyecto</label>
+                    <textarea  class="form-control" id="proyecto" required></textarea>
+                    <hr>
+                    <button type="submit" for="" class="btn btn-dark">enviar</button>
+                </form>
+            </div>
+            <div class="col-lg-8 col-sm-12 card2">
+                <div class="card mb-3" style="max-width: 90%">
+                    <div class="row g-0">
+                      <div class="col-md-6 col-lg-5">
+                        <img src="./Img/far9.jpeg" class=" rounded-start img-about" alt="...">
+                      </div>
+                      <div class="col-md-6 col-lg-7">
+                        <div class="card-body">
+                          <h5 class="card-title">Telefono</h5>
+                          <p class="card-text card-text-abs">3008782151</p>
+                          <h5 class="card-title">Correo</h5>
+                          <p class="card-text card-text-abs">Efarfan@ucompensar.edu.co</p>
+                          <center>
+                          <a href="https://www.instagram.com/sebastian_farfanph/?igshid=MzRlODBiNWFlZA%3D%3D"><i class="bi bi-instagram icons-card"></i></a>
+                          <a href="https://www.behance.net/sebastianfarfan3"><i class="bi bi-image icons-card"></i></a>
+                          <a href="https://wa.me/qr/XGC3FUFTUFPYD1"><i class="bi bi-whatsapp icons-card"></i></a>
+                          </center>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+        </div>
+        </div>
+    </div>
+    <footer>
+      <div class="container-fluid margen">
+        <div class="row">
+          <div class="col-lg-4">
+            <p class="copy"> Copyright ©: todos los derechos reservados a sebasatian farfan</p>
+          </div>
+          <div class="col-lg-4 col-sm-12">
+            <center>
+              <a href="https://www.instagram.com/sebastian_farfanph/?igshid=MzRlODBiNWFlZA%3D%3D"><i class="bi bi-instagram icons-footer"></i></a>
+              <a href="https://www.behance.net/sebastianfarfan3"><i class="bi bi-image icons-footer"></i></a>
+              <a href="https://wa.me/qr/XGC3FUFTUFPYD1"><i class="bi bi-whatsapp icons-footer"></i></a>
+            </center>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="./bootstrap/js/bootstrap.min.js"></script>
+    <script>
+      (() => {
+        'use strict'
+        // Fetch all the forms we want to apply custom Bootstrap validation styles to
+        const forms = document.querySelectorAll('.needs-validation')
+        // Loop over them and prevent submission
+        Array.from(forms).forEach(form => {
+        form.addEventListener('submit', event => {
+          if (!form.checkValidity()) {
+            event.preventDefault()
+            event.stopPropagation()
+          }
+          form.classList.add('was-validated')
+        }, false)
+        })
+      })()
+    </script>
+</body>
+</html>

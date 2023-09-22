@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&family=Special+Elite&display=swap');
+body{
+    background-color: #2176FF;
+}
+.title-name{
+    font-family: 'EB Garamond', serif;
+    font-family: 'Special Elite', cursive;
+    font-weight: bolder;
+    color:white;
+    padding-top: 12px;
+}
+.bi-list{
+    color: white;
+    font-size: 40px;
+}
+.nav-item{
+    font-family: 'EB Garamond', serif;
+    font-family: 'Special Elite', cursive;
+    color:white;
+    padding: 10px;
+    text-decoration: none;
+}
+.nav-item:hover{
+    color: white;
+}
+.image-carousel{
+    width: 100%;
+}
+.icons-footer{
+    color: white;
+    font-size: 40px;
+    padding: 10px;
+}
+.copy{
+    color: white;
+    padding-top:20px ;
+}
+.text-description{
+    color: #D3DEEB;
+    font-size: 20px;
+    justify-content: left;
+    padding-top:16px ;
+}
+.img-about{
+    border-radius: 10px;
+    width: 100%;
+  
+}
+.img-about2{    
+    width: 30%;
+    margin-left: 2%;
+
+}
+.bio{
+    text-align: justify;
+    font-size: 17px;
+    color: black;
+    padding: 50px;
+}
+.card-title{
+    text-align: center;
+    font-size:25px;
+    color: black;
+    padding: 10px;
+    font-weight: 7z 00;
+    font-weight: bolder;
+    font-family: 'EB Garamond', serif;
+    font-family: 'Special Elite', cursive;
+}
+.img-card{
+    height: 40%;
+}
+label{
+    color: white;
+    font-family: 'EB Garamond', serif;
+    font-family: 'Special Elite', cursive;
+    font-size: 20px;
+}
+input{
+    margin-bottom: 10px;
+}
+
+.card2{
+    padding-left: 50px;  
+    margin-top: 30px;  
+}
+.card-text-abs{
+    
+    font-size:20px;
+    color: black;
+    padding: 10px;
+    font-family: 'EB Garamond', serif;
+    font-family: 'Special Elite', cursive;
+    
+}
+.icons-card{
+    color: black;
+    font-size: 40px;
+    padding: 10px;
+}
+.margen{
+    margin-top: 0px;
+}
+.button-galery{
+    font-size:20px;
+    font-family: 'EB Garamond', serif;
+    font-family: 'Special Elite', cursive;
+    
+}
+.video{
+    width: 100%;
+    height: 500px;
+}
+
+@media (min-width: 993px) {
+    .margen{
+        margin-top: 200px;
+  }
+    .card2{
+    margin-top: 0px;
+  }
+    .card-text-abs{
+    padding-left: 60px;
+  }
+  .form{
+    padding-left: 20px;
+}
+
+}
+@media (min-width: 993px) and (max-width:1447px) {
+
+  .img-about{
+    width: 120%;
+  }
+}
+
+
